@@ -8,10 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { FlightsComponent } from './flights/flights.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FlightsComponent
   ],
   imports: [
     BrowserModule,
